@@ -37,5 +37,15 @@
       <artifactId>ehcache</artifactId>
       <classifier>jakarta</classifier>
     </dependency>
+    <dependency>
+      <groupId>javax.cache</groupId>
+      <artifactId>cache-api</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-xml</artifactId>
+      <version>2.15.3</version>
+    </dependency>
   </dependencies>
 </project>

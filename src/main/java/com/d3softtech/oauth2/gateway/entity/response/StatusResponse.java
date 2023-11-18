@@ -4,6 +4,6 @@ import com.d3softtech.oauth2.gateway.entity.bankid.CollectStatus;
 import lombok.Builder;
 
 @Builder
-public record StatusResponse(CollectStatus status) {
+public record StatusResponse(CollectStatus status, String reference) {
 
 }

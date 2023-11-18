@@ -24,7 +24,8 @@ spring:
             location: "classpath:truststore.p12"
             password: "qwerty123"
             type: "PKCS12"
-  cache:
-    cache-names: user-authentication-request
 
-
+  cache.jcache.config: classpath:ehcache.xml
+  jackson:
+    mapper:
+      accept-case-insensitive-enums: true
